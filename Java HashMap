@@ -3,6 +3,7 @@
   Map<Character , Integer> mapCount = new LinkedHashMap<>();
   for(char ch : s.toCharArray())
     mapCount.put(ch, mapCount.getOrDefault(ch,0)+1);
+
   /*Insted of get() we use getOrDefault() because If ch does not exist in the map yet, get(ch) will return null. (i.e., null + 1) will throw a NullPointerException.
   If ch exists in the map, it returns countMap.get(ch). If ch does not exist, it returns 0 (instead of null). Then, we simply add 1 and put the updated value back into the map.*/
 
