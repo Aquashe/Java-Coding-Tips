@@ -1,0 +1,5 @@
+1.USING NEW ARRAYLIST<>()
+
+  if (new ArrayList<>(dq).equals(Arrays.asList(s1.toCharArray())))
+    return true;
+            
