@@ -1,0 +1,8 @@
+1.REMOVING A LEADING CHARACTER IN A STRING 
+
+  String str = "00101";
+  String result = str.replaceFirst("^0+", "");
+
+  ^ → Start of the string
+  0+ → Matches one or more leading zeros
+  "" → Replaces matched zeros with an empty string
