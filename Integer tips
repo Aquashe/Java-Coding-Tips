@@ -1,0 +1,6 @@
+1.CONVERT STRING TO INT 
+  int num = Integer.parseInt(ch);
+
+2.CONVERT CHAR TO INT
+  int num = Integer.parseInt(String.valueOf(ch));
+  int num = ch - '0';
