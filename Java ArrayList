@@ -6,3 +6,6 @@
 
 2. COMBINE 2 ARRAYLISTS
     list1.addAll(list2);
+
+3.CONVERTING ARRAYLIST TO INT[] ARRAY
+    int[] array = list.stream().mapToInt(Integer::intValue).toArray();
