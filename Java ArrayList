@@ -3,3 +3,6 @@
   if (new ArrayList<>(dq).equals(Arrays.asList(s1.toCharArray())))
     return true;
             
+
+2. COMBINE 2 ARRAYLISTS
+    list1.addAll(list2);
