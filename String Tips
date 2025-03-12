@@ -1,3 +1,0 @@
-1. CONVERT INT TO STRING 
-
-  String.valueOf(Integer.parseInt(str));

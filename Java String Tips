@@ -1,0 +1,7 @@
+CONVERT INT TO STRING 
+  String.valueOf(Integer.parseInt(str));
+
+REPEAT CHARACTER STRING CODE
+    String bRepeat = "B".repeat(k)
+
+
